@@ -60,6 +60,20 @@ h1, h2, h3, h4, h5, h6{
   justify-content: flex-end;
   margin-left: 20px;
 }
+
+.lienInscription{
+  color: white;
+}
+.boutonInscription:hover {
+  width: 360px;
+  height: 60px;
+}
+.boutonInscription:hover .lienInscription{
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
 .contacter{
   display: flex;
   justify-content: flex-start;
