@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;500&family=Quicksand:wght@300&display=swap"
           rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -36,8 +39,9 @@
         <div class="prixInscription">
             <h3>Tarifs : 1400 €</h3>
             <button type="button" class="btn btn-outline-primary boutonInscription"
-            ><a class="lienInscription" href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/84242806200025_devopsfoundation/84242806200025_devopsfoundationaction1"
-                target="_blank" >M'inscrire avec le CPF</a></button>
+            ><a class="lienInscription"
+                href="https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/84242806200025_devopsfoundation/84242806200025_devopsfoundationaction1"
+                target="_blank">M'inscrire avec le CPF</a></button>
         </div>
     </div>
 </div>
@@ -199,7 +203,7 @@
 <div class=" container partenaireAvis">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 
-        <h3>Nous sommes partenaire de la devops institute</h3>
+        <h4>Nous sommes partenaire de la devops institute</h4>
 
         <!-- <div class="carousel-indicators">
              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -212,7 +216,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="/images/nosPartenaires.jpeg" class="d-block w-100"
-                     alt="Eazytraining partenaire devops institute">
+                     alt="Eazytraining partenaire devops institute" width="350" height="500">
             </div> <!--
             <div class="carousel-item">
                 <img src="..." class="d-block w-100" alt="...">
@@ -233,24 +237,23 @@
         </button>
     </div>
 
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <h3>ILs ont passé leur certification</h3>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+        <h4 class="titre23">Ils ont passé leur certification</h4>
+
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-                <img src="/images/kevinDango.jpeg" class="d-block w-100" alt="...">
-            </div>
-          <!--  <div class="carousel-item" data-bs-interval="2000">
-                <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-item active">
+                <img src="/images/kevinDango.jpeg" class="d-block w-100" alt="Kevin Dango">
             </div>
             <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-            </div>  -->
+                <img src="/images/stephane.jpeg" class="d-block w-100" alt="Stéphane">
+            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Précédent</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Suivant</span>
         </button>
@@ -261,13 +264,13 @@
 <form class="container formulaire_contact " action="" method="post">
     <!-- Name input -->
     <div class="form-outline mb-4" id="contactForm">
-        <input type="text" id="form4Example1" class="form-control" />
+        <input type="text" id="form4Example1" class="form-control"/>
         <label class="form-label" for="form4Example1">Nom</label>
     </div>
 
     <!-- Email input -->
     <div class="form-outline mb-4">
-        <input type="email" id="form4Example2" class="form-control" />
+        <input type="email" id="form4Example2" class="form-control"/>
         <label class="form-label" for="form4Example2">Adresse email</label>
     </div>
 
@@ -286,6 +289,14 @@
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="/javascripts/script.js"></script>
 
 </body>

@@ -3,6 +3,7 @@ body {
   margin: 0;
   border: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -112,11 +113,7 @@ aside{
   background-color: rgba(44, 121, 199, .6);
   border-radius: 5px;
 }
-.partenaireAvis{
-  margin: 50px 0;
-  display: flex;
-  justify-content: space-around;
-}
+
 #carouselExampleIndicators{
   width: 30%;
   height: 45%;
@@ -134,3 +131,21 @@ aside{
   margin: 20px;
 }
 
+
+/* Début du Carrousel */
+
+.partenaireAvis{
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, .05);
+  margin: .5%;
+  padding: 1%;
+}
+
+#carouselExampleControls{
+  width: 32.5%;
+}
+
+.titre23{
+  margin-bottom: 33px;
+}
+/* Fin du Carrousel */
