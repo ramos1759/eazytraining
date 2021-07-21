@@ -147,5 +147,25 @@ aside{
 
 .titre23{
   margin-bottom: 33px;
+
 }
 /* Fin du Carrousel */
+
+
+/*
+Début de la notation étoilé
+ */
+
+.notation {
+  display: flex;
+
+}
+
+.notation ion-icon{
+  font-size: 1em;
+  color: #e1b12c;
+}
+
+/*
+Fin de la notation étoilé
+ */
