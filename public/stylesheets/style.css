@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6{
   width: 45vw;
   height: 100%;
   padding-bottom: 120px;
+  padding-top: 100px;
   background-color: rgba(30, 55, 153, .4);
   padding-left: 100px;
   display: flex;
